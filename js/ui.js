@@ -38,7 +38,7 @@ export default class UI {
 		container.insertBefore(div, form);
 
 		// Vanish in 3 seconds
-		setTimeout(() => document.querySelector(".alert").remove(), 3000);
+		setTimeout(() => div.remove(), 3000);
 	}
 
 	static clearFields() {
